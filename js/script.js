@@ -1,3 +1,9 @@
+var myButton = document.getElementById('myButton');
+myButton.addEventListener('click', function() {
+  alert('Caution: CV under the protection of top-secret ninja squirrels. Request access to unravel the magic!');
+});
+
+
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
